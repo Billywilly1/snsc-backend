@@ -4,14 +4,16 @@
   "description": "SNSC 3-1 IoT proxy backend",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "yarn add express cors node-fetch@2"
   },
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "node-fetch": "^2.7.0"
+    "cors": "2.8.5",
+    "express": "4.18.2",
+    "node-fetch": "2.7.0"
   },
   "engines": {
-    "node": "18.x"
+    "node": "18.x",
+    "yarn": "1.x"
   }
 }
